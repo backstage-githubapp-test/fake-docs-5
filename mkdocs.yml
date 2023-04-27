@@ -1,0 +1,10 @@
+site_name: "fake-docs-5"
+site_description: "This is just a playground"
+repo_url: https://github.com/backstage-githubapp-test/fake-docs-5
+edit_uri: edit/main/docs
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

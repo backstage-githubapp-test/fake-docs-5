@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "fake-docs-5"
+  description: "This is just a playground"
+  annotations:
+    github.com/project-slug: backstage-githubapp-test/fake-docs-5
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "group:default/demo-team"
